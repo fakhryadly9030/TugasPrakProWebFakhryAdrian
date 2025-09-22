@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas PrakPW B1</title>
+</head>
+<h2>Form Pemesanan Mobil Travel</h2>
+<body>
+    <form action="#">
+  <table style="text-align: left;">
+    <thead>
+      <tr>
+        <td><label for="name">Nama:</label></td>
+        <td><input type="text" name="name" placeholder="cth: M Fakhry Adrian Daulay"/></td>
+      </tr>
+      <tr>
+        <td><label for="email">Email:</label></td>
+        <td><input type="email" name="email" placeholder="nama@gmail.com"/></td>
+        </tr>
+        <tr>
+            <td><label for="nomorhp">No. HP:</label></td>
+            <td><input type="number" name="nomorhp" placeholder="012345678910"/></td>
+        </tr>
+        <tr>
+        <td><label for="destination">Destinasi:</label></td>
+        <td><select id="destination" name="destination" class="select" required>
+            <option value="">-- Pilih Destinasi --</option>
+            <option value="padang">Padang</option>
+            <option value="aek loba">Aek Loba</option>
+            <option value="pematang siantar">Pematang Siantar</option>
+            <option value="prapat">Prapat</option>
+            <option value="pekanbaru">Pekanbaru</option>
+            <option value="banda aceh">Banda Aceh</option>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="tanggal">Tanggal Berangkat:</label></td>
+            <td><input type="date" id="tanggal" name="tanggal"></td>
+        </tr>
+        <tr>
+            <td><label for="waktu">Waktu Berangkat</label></td>
+            <td><input type="time" id="waktu" name="waktu"></td>
+        </tr>
+        <tr>
+            <td><label for="jlhpenumpang">Jumlah Penumpang:</label></td>
+            <td><input type="number" name="jlhpenumpang" placeholder="-- orang"></td>
+        </tr>
+        <tr>
+            <td><label for="pilihanarmada">Pilihan Armada:</label></td><br />
+        <td><input type="radio" name="pilihanarmada" /> Mobil Hiace <br />
+        <input type="radio" name="pilihanarmada" /> Bus Laksana <br />
+        <input type="radio" name="pilihanarmada" /> ELF <br /></td>
+        </tr>
+        <tr>
+            <td><label for="layanan">Layanan Tambahan:</label></td>
+        <td>
+        <input type="checkbox" name="layanan1" />Makanan <br />
+        <input type="checkbox" name="layanan2" />Air Mineral <br />
+        <input type="checkbox" name="layanan3" />Selimut <br />
+        </tr>
+        </td>
+        <tr>
+            <td><label for="foto">Upload Identitas:</label></td>
+            <td><input type="file" id="foto" name="foto" accept="image/*"></td>
+            </form>
+        </tr>                       
+    </thead>
+  </table>
+          <tr>
+            <td><input type="submit" value="Daftar" /></td>
+        </tr> 
+                  <tr>
+            <td><input type="reset" value="Batal" /></td>
+        </tr> 
+    </form>
+</body>
+</html>
